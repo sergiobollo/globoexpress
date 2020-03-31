@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/globoexpress/static/css/main.3e383edb.chunk.css",
-    "main.js": "/globoexpress/static/js/main.77254639.chunk.js",
-    "main.js.map": "/globoexpress/static/js/main.77254639.chunk.js.map",
+    "main.js": "/globoexpress/static/js/main.dbc4d3e5.chunk.js",
+    "main.js.map": "/globoexpress/static/js/main.dbc4d3e5.chunk.js.map",
     "runtime-main.js": "/globoexpress/static/js/runtime-main.8554fc6d.js",
     "runtime-main.js.map": "/globoexpress/static/js/runtime-main.8554fc6d.js.map",
     "static/css/2.de424728.chunk.css": "/globoexpress/static/css/2.de424728.chunk.css",
-    "static/js/2.ad8f3b83.chunk.js": "/globoexpress/static/js/2.ad8f3b83.chunk.js",
-    "static/js/2.ad8f3b83.chunk.js.map": "/globoexpress/static/js/2.ad8f3b83.chunk.js.map",
+    "static/js/2.8b953cea.chunk.js": "/globoexpress/static/js/2.8b953cea.chunk.js",
+    "static/js/2.8b953cea.chunk.js.map": "/globoexpress/static/js/2.8b953cea.chunk.js.map",
     "index.html": "/globoexpress/index.html",
-    "precache-manifest.c251d6b9c6572c18081a87dc1d2625f7.js": "/globoexpress/precache-manifest.c251d6b9c6572c18081a87dc1d2625f7.js",
+    "precache-manifest.d77f6151f7cf0c65322c733d4e20a3e3.js": "/globoexpress/precache-manifest.d77f6151f7cf0c65322c733d4e20a3e3.js",
     "service-worker.js": "/globoexpress/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/globoexpress/static/css/2.de424728.chunk.css.map",
     "static/css/main.3e383edb.chunk.css.map": "/globoexpress/static/css/main.3e383edb.chunk.css.map",
-    "static/js/2.ad8f3b83.chunk.js.LICENSE.txt": "/globoexpress/static/js/2.ad8f3b83.chunk.js.LICENSE.txt"
+    "static/js/2.8b953cea.chunk.js.LICENSE.txt": "/globoexpress/static/js/2.8b953cea.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8554fc6d.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.ad8f3b83.chunk.js",
+    "static/js/2.8b953cea.chunk.js",
     "static/css/main.3e383edb.chunk.css",
-    "static/js/main.77254639.chunk.js"
+    "static/js/main.dbc4d3e5.chunk.js"
   ]
 }
