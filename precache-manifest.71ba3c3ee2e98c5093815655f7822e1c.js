@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3ac30a7ec797e586d3ef0e574a17ec6e",
+    "revision": "c818b59d1ccb03ae629a74de95ab06e5",
     "url": "/globoexpress/index.html"
   },
   {
