@@ -2,12 +2,12 @@ import './App.css';
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
-import Home from './home';
-import Productos from './productos';
-import Contacto from './contacto';
-import Nosotros from './nosotros';
-import Catalogo from './catalogo';
-import Notfound from './notfound';
+import Home from './globoexpress/home';
+import Productos from './globoexpress/productos';
+import Contacto from './globoexpress/contacto';
+import Nosotros from './globoexpress/nosotros';
+import Catalogo from './globoexpress/catalogo';
+import Notfound from './globoexpress/notfound';
 //import Container from 'react-bootstrap/Container'
 //import Row from 'react-bootstrap/Row'
 //import Col from 'react-bootstrap/Col'
@@ -54,18 +54,18 @@ class App extends Component {
             <
             Nav.Item className = "px-3" >
             <
-            Link to = "/"
+            Link to = "/globoexpress/"
             className = "text-danger" > HOME < /Link > < /
             Nav.Item >
             <
             Nav.Item className = "px-3" >
             <
-            Link to = "/nosotros"
+            Link to = "/globoexpress/nosotros"
             className = "text-danger" > NOSOTROS < /Link > < /
             Nav.Item > <
             Nav.Item className = "px-3" >
             <
-            Link to = "/productos"
+            Link to = "/globoexpress/productos"
             className = "text-danger" >
             PRODUCTOS < /Link > < /
             Nav.Item >
@@ -73,7 +73,7 @@ class App extends Component {
             <
             Nav.Item className = "px-3" >
             <
-            Link to = "/catalogo"
+            Link to = "/globoexpress/catalogo"
             className = "text-danger" >
             CATALOGO < /Link > < /
             Nav.Item >
@@ -81,7 +81,7 @@ class App extends Component {
             <
             Nav.Item className = "px-3" >
             <
-            Link to = "/contacto"
+            Link to = "/globoexpress/contacto"
             className = "text-danger" >
             CONTACTO < /Link > < /
             Nav.Item >
@@ -100,19 +100,19 @@ class App extends Component {
             <
             Switch >
             <
-            Route exact path = '/'
+            Route exact path = '/globoexpress/'
             component = { Home }
             />   <
-            Route path = '/nosotros'
+            Route path = '/globoexpress/nosotros'
             component = { Nosotros }
             />  <
-            Route path = '/productos'
+            Route path = '/globoexpress/productos'
             component = { Productos }
             />  <
-            Route path = '/catalogo'
+            Route path = '/globoexpress/catalogo'
             component = { Catalogo }
             />  <
-            Route path = '/contacto'
+            Route path = '/globoexpress/contacto'
             component = { Contacto }
             />    <
             Route component = { Notfound }

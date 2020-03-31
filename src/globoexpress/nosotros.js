@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Image from 'react-bootstrap/Image';
 //import Container from 'react-bootstrap/Container'
 

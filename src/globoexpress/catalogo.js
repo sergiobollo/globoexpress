@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed';
 
 function Catalogo() {
