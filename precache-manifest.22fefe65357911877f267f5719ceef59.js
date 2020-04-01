@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "00c77021c65da7d4fb7b57761a20e0c8",
+    "revision": "be8862a87d8d1d95da43ceb5b07775bd",
     "url": "/globoexpress/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/globoexpress/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "788622b50d6e4a1138d6",
+    "revision": "a1047e8d2ffbed128370",
     "url": "/globoexpress/static/css/main.4c403d35.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/globoexpress/static/js/2.02e80845.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "788622b50d6e4a1138d6",
-    "url": "/globoexpress/static/js/main.15b5af30.chunk.js"
+    "revision": "a1047e8d2ffbed128370",
+    "url": "/globoexpress/static/js/main.2f2f3d96.chunk.js"
   },
   {
     "revision": "11703fe029a90c154ed0",
