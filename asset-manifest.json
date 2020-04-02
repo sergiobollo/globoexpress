@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/globoexpress/static/css/main.3e383edb.chunk.css",
-    "main.js": "/globoexpress/static/js/main.914b2d27.chunk.js",
-    "main.js.map": "/globoexpress/static/js/main.914b2d27.chunk.js.map",
+    "main.js": "/globoexpress/static/js/main.1d2650d7.chunk.js",
+    "main.js.map": "/globoexpress/static/js/main.1d2650d7.chunk.js.map",
     "runtime-main.js": "/globoexpress/static/js/runtime-main.8554fc6d.js",
     "runtime-main.js.map": "/globoexpress/static/js/runtime-main.8554fc6d.js.map",
     "static/css/2.de424728.chunk.css": "/globoexpress/static/css/2.de424728.chunk.css",
     "static/js/2.5cc2be9a.chunk.js": "/globoexpress/static/js/2.5cc2be9a.chunk.js",
     "static/js/2.5cc2be9a.chunk.js.map": "/globoexpress/static/js/2.5cc2be9a.chunk.js.map",
     "index.html": "/globoexpress/index.html",
-    "precache-manifest.877f8b806b4acfe1526c1f8efc549150.js": "/globoexpress/precache-manifest.877f8b806b4acfe1526c1f8efc549150.js",
+    "precache-manifest.727cc0d8733314c6496a26f6588b63c3.js": "/globoexpress/precache-manifest.727cc0d8733314c6496a26f6588b63c3.js",
     "service-worker.js": "/globoexpress/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/globoexpress/static/css/2.de424728.chunk.css.map",
     "static/css/main.3e383edb.chunk.css.map": "/globoexpress/static/css/main.3e383edb.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.de424728.chunk.css",
     "static/js/2.5cc2be9a.chunk.js",
     "static/css/main.3e383edb.chunk.css",
-    "static/js/main.914b2d27.chunk.js"
+    "static/js/main.1d2650d7.chunk.js"
   ]
 }
