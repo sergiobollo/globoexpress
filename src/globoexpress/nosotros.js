@@ -1,10 +1,74 @@
 import React from 'react';
 import Image from 'react-bootstrap/Image';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import { Link } from 'react-router-dom';
 //import Container from 'react-bootstrap/Container'
 
 function Nosotros() {
     return ( <
         div className = "App" >
+
+        <
+        Navbar sticky = "top"
+        className = "bg-white border-bottom"
+        collapseOnSelect expand = "lg"
+        variant = "light" >
+        <
+        aside className = " flex-column  mx-auto" >
+        <
+        div className = "d-flex flex-row justify-content-center" >
+        <
+        Image src = "./media/logo.jpg"
+        className = "py-1 logo"
+        fluid / >
+        <
+        /div>     <
+        div className = "d-flex flex-row justify-content-center" >
+        <
+        Navbar.Toggle className = "mx-auto" / >
+        <
+        Navbar.Collapse id = "responsive-navbar-nav" >
+        <
+        Nav className = "mx-auto" >
+
+        <
+        Nav.Item className = "px-3" >
+        <
+        Link to = "/globoexpress/"
+        className = "text-danger" > < small > HOME < /small> < /Link > < /
+        Nav.Item >
+        <
+        Nav.Item className = "px-3" >
+        <
+        Link to = "/globoexpress/nosotros"
+        className = "text-danger" > < small > NOSOTROS < /small> < /Link > < /
+        Nav.Item > <
+        Nav.Item className = "px-3" >
+        <
+        Link to = "/globoexpress/productos"
+        className = "text-danger" >
+        <
+        small > PRODUCTOS < /small> < /Link > < /
+        Nav.Item >
+
+        <
+        Nav.Item className = "px-3" >
+        <
+        Link to = "/globoexpress/contacto"
+        className = "text-danger" >
+        <
+        small > CONTACTO < /small> < /Link > < /
+        Nav.Item >
+        <
+        /Nav> < /
+        Navbar.Collapse >
+
+        <
+        /div> < /
+        aside > <
+        /
+        Navbar >
 
         <
         header >
@@ -40,14 +104,14 @@ function Nosotros() {
         intangibles " de Globo Expresss son bien apreciados en la industria del globo de nuestro
         Pais, por eso agradecemos a todos nuestros Clientes, Proveedores y Amigos por confiar en nosotros. < /p><p>En veinticinco años muchos de nuestros proyectos se hicieron realidad,
         otros forman parte de planes futuros. < /p><p>Con fe en nuestro País y en la gente que nos acompaña, mantenemos latente nuestra filosofía de trabajo que nos permite alcanzar los siguientes objetivos: <
-        ol >
+        ul >
         <
         li > Obtener beneficios necesarios para financiar el crecimiento de la empresa. <
         /li><li> Darles a nuestros Clientes, productos y servicios que satisfagan sus necesidades reales. < /
         li > < li > Dar cumplimiento a nuestras obligaciones con el estado.d - Compartir con toda la gente de Globo Express los logros alcanzados,
         ya que entre todos lo hacemos posible, y asegurarnos de que existe ese sentimiento de satisfacción personal que proviene del hecho de haber cumplido con la tarea asignada. <
         /li> < /
-        ol > <
+        ul > <
         /p>
 
         <
