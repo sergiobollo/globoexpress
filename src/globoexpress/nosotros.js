@@ -11,7 +11,7 @@ function Nosotros() {
 
         <
         Navbar sticky = "top"
-        className = "bg-white border-bottom"
+        className = " border-bottom border-white App"
         collapseOnSelect expand = "lg"
         variant = "light" >
         <
@@ -19,7 +19,7 @@ function Nosotros() {
         <
         div className = "d-flex flex-row justify-content-center" >
         <
-        Image src = "./media/logo.jpg"
+        Image src = "../media/logo.jpg"
         className = "py-1 logo"
         fluid / >
         <
@@ -27,6 +27,7 @@ function Nosotros() {
         div className = "d-flex flex-row justify-content-center" >
         <
         Navbar.Toggle className = "mx-auto" / >
+
         <
         Navbar.Collapse id = "responsive-navbar-nav" >
         <
@@ -48,6 +49,7 @@ function Nosotros() {
         <
         Link to = "/globoexpress/productos"
         className = "text-danger" >
+
         <
         small > PRODUCTOS < /small> < /Link > < /
         Nav.Item >
@@ -57,6 +59,7 @@ function Nosotros() {
         <
         Link to = "/globoexpress/contacto"
         className = "text-danger" >
+
         <
         small > CONTACTO < /small> < /Link > < /
         Nav.Item >
@@ -73,7 +76,7 @@ function Nosotros() {
         <
         header >
         <
-        Image src = "./media/logo2.jpg"
+        Image src = "../media/logo2.jpg"
         className = "p-3 align-center mx-auto d-block logo"
 
         fluid / >
@@ -84,7 +87,7 @@ function Nosotros() {
         <
         section className = "p-3 d-block overflow-hidden" >
         <
-        Image src = "./media/nosotros.jpg"
+        Image src = "../media/nosotros.jpg"
         className = "float-left w-25 pr-1"
         fluid / >
 

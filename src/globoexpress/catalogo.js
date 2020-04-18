@@ -11,7 +11,7 @@ function Catalogo() {
 
         <
         Navbar sticky = "top"
-        className = "bg-white border-bottom"
+        className = " border-bottom border-white bg-black"
         collapseOnSelect expand = "lg"
         variant = "light" >
         <
@@ -19,7 +19,7 @@ function Catalogo() {
         <
         div className = "d-flex flex-row justify-content-center" >
         <
-        Image src = "./media/logo.jpg"
+        Image src = "../media/logo.jpg"
         className = "py-1 logo"
         fluid / >
         <
@@ -27,6 +27,7 @@ function Catalogo() {
         div className = "d-flex flex-row justify-content-center" >
         <
         Navbar.Toggle className = "mx-auto" / >
+
         <
         Navbar.Collapse id = "responsive-navbar-nav" >
         <
@@ -48,6 +49,7 @@ function Catalogo() {
         <
         Link to = "/globoexpress/productos"
         className = "text-danger" >
+
         <
         small > PRODUCTOS < /small> < /Link > < /
         Nav.Item >
@@ -57,6 +59,7 @@ function Catalogo() {
         <
         Link to = "/globoexpress/contacto"
         className = "text-danger" >
+
         <
         small > CONTACTO < /small> < /Link > < /
         Nav.Item >
@@ -75,7 +78,7 @@ function Catalogo() {
         <
         embed type = "application/pdf"
 
-        src = "./media/catalogoEnero2020.pdf#toolbar=0&navpanes=0&scrollbar=0" / >
+        src = "http://www.globoexpress.com.ar/full/index_htm_files/catalogo%20enero%202020.pdf" / >
         <
         /ResponsiveEmbed> 
 

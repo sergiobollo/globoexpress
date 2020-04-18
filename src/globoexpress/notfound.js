@@ -9,9 +9,11 @@ function Notfound() {
     return ( <
         div className = "App" >
 
+
+
         <
         Navbar sticky = "top"
-        className = "bg-white border-bottom"
+        className = " border-bottom border-white bg-black"
         collapseOnSelect expand = "lg"
         variant = "light" >
         <
@@ -27,6 +29,7 @@ function Notfound() {
         div className = "d-flex flex-row justify-content-center" >
         <
         Navbar.Toggle className = "mx-auto" / >
+
         <
         Navbar.Collapse id = "responsive-navbar-nav" >
         <
@@ -48,6 +51,7 @@ function Notfound() {
         <
         Link to = "/globoexpress/productos"
         className = "text-danger" >
+
         <
         small > PRODUCTOS < /small> < /Link > < /
         Nav.Item >
@@ -57,6 +61,7 @@ function Notfound() {
         <
         Link to = "/globoexpress/contacto"
         className = "text-danger" >
+
         <
         small > CONTACTO < /small> < /Link > < /
         Nav.Item >
@@ -70,6 +75,10 @@ function Notfound() {
         /
         Navbar >
 
+
+
+
+
         <
         section className = "text-center p-5" >
         <
@@ -78,11 +87,13 @@ function Notfound() {
 
         <
         footer className = "border-top p-1 mx-auto sticky-bottom text-center text-danger bg-white" > < small > ©Globo Express 1995 - 2020. Globo Express - Silk Screen Impresión Perfecta y Flexifoil Set, son Marcas Registradas < /small > < /footer >
+        >
 
         <
         /
         div >
     );
 }
+
 
 export default Notfound

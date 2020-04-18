@@ -1,8 +1,6 @@
 .App {
-    background-image: radial-gradient(circle, white) !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    color: orangered;
+    background-color: white !important;
+    color: darkorange;
 }
 
 .Carousel {
@@ -29,6 +27,11 @@
 .logo {
     max-height: 15vh;
     align-items: center;
+    max-width: 30vw;
+}
+
+div {
+    white-space: pre-line;
 }
 
 

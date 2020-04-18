@@ -12,7 +12,7 @@ function Contacto() {
 
         <
         Navbar sticky = "top"
-        className = "bg-white border-bottom"
+        className = " border-bottom border-white App"
         collapseOnSelect expand = "lg"
         variant = "light" >
         <
@@ -20,7 +20,7 @@ function Contacto() {
         <
         div className = "d-flex flex-row justify-content-center" >
         <
-        Image src = "./media/logo.jpg"
+        Image src = "../media/logo.jpg"
         className = "py-1 logo"
         fluid / >
         <
@@ -28,6 +28,7 @@ function Contacto() {
         div className = "d-flex flex-row justify-content-center" >
         <
         Navbar.Toggle className = "mx-auto" / >
+
         <
         Navbar.Collapse id = "responsive-navbar-nav" >
         <
@@ -49,6 +50,7 @@ function Contacto() {
         <
         Link to = "/globoexpress/productos"
         className = "text-danger" >
+
         <
         small > PRODUCTOS < /small> < /Link > < /
         Nav.Item >
@@ -58,6 +60,7 @@ function Contacto() {
         <
         Link to = "/globoexpress/contacto"
         className = "text-danger" >
+
         <
         small > CONTACTO < /small> < /Link > < /
         Nav.Item >
@@ -73,12 +76,16 @@ function Contacto() {
 
         <
         Card className = "mx-auto my-3"
+
         style = {
-            { width: '50vmax' }
+            {
+                width: '50vmax',
+
+            }
         } >
         <
         Card.Img variant = "top"
-        src = "./media/contacto.jpg" / >
+        src = "../media/contacto.jpg" / >
         <
         Card.Body >
         <
@@ -87,7 +94,7 @@ function Contacto() {
         <
         p > Horario: Lunes a Viernes de 8 a 17 hs y Sábados de 10 a 13 hs. < /p>  <
         p > Tel: 46839577 / 46352296 / 32212412 < /p> <
-        p > < Image src = "./media/whatsappLogo.png"
+        p > < Image src = "../media/whatsappLogo.png"
         rounded / > WhatsApp: 1165597309 < /p>  <
         p > Mail: < a href = "mailto: info @globoexpress.com.ar" > info @globoexpress.com.ar < /a>< /p >
         <
@@ -108,11 +115,8 @@ function Contacto() {
 
         <
         footer className = "border-top p-1 mx-auto sticky-bottom text-center text-danger bg-white" > < small > ©Globo Express 1995 - 2020. Globo Express - Silk Screen Impresión Perfecta y Flexifoil Set, son Marcas Registradas < /small > < /footer >
-
-
         <
-        /
-        div >
+        /div>
     );
 }
 

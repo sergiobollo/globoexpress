@@ -13,7 +13,7 @@ function Productos() {
 
         <
         Navbar sticky = "top"
-        className = "bg-white border-bottom"
+        className = " border-bottom border-white App"
         collapseOnSelect expand = "lg"
         variant = "light" >
         <
@@ -21,7 +21,7 @@ function Productos() {
         <
         div className = "d-flex flex-row justify-content-center" >
         <
-        Image src = "./media/logo.jpg"
+        Image src = "../media/logo.jpg"
         className = "py-1 logo"
         fluid / >
         <
@@ -29,6 +29,7 @@ function Productos() {
         div className = "d-flex flex-row justify-content-center" >
         <
         Navbar.Toggle className = "mx-auto" / >
+
         <
         Navbar.Collapse id = "responsive-navbar-nav" >
         <
@@ -50,6 +51,7 @@ function Productos() {
         <
         Link to = "/globoexpress/productos"
         className = "text-danger" >
+
         <
         small > PRODUCTOS < /small> < /Link > < /
         Nav.Item >
@@ -59,6 +61,7 @@ function Productos() {
         <
         Link to = "/globoexpress/contacto"
         className = "text-danger" >
+
         <
         small > CONTACTO < /small> < /Link > < /
         Nav.Item >
@@ -74,12 +77,18 @@ function Productos() {
 
         <
         header >
+
+
         <
         p className = "text-danger pt-3 text-center" > Consulta nuestro <
         Link to = "/globoexpress/catalogo"
         className = "text-danger" >
+
         <
-        u > catálogo < /u> < /Link > < /p > < /
+        u > catálogo < /u> < /Link > < /p > 
+
+        <
+        /
         header >
 
         <
@@ -90,28 +99,28 @@ function Productos() {
         Col xs = { 12 }
         className = " mx-auto align-center" >
         <
-        Image src = "./media/home1.jpg"
+        Image src = "../media/home1.jpg"
         className = "p-3 align-center mx-auto d-block"
         fluid / >
         <
         /Col> <
         Col xs = { 12 } >
         <
-        Image src = "./media/home2.jpg"
+        Image src = "../media/home2.jpg"
         className = "p-3 align-center mx-auto d-block"
         fluid / >
         <
         /Col> <
         Col xs = { 12 } >
         <
-        Image src = "./media/home3.jpg"
+        Image src = "../media/home3.jpg"
         className = "p-3 align-center mx-auto d-block"
         fluid / >
         <
         /Col> <
         Col xs = { 12 } >
         <
-        Image src = "./media/home4.jpg"
+        Image src = "../media/home4.jpg"
         className = "p-3 align-center mx-auto d-block"
         fluid / >
         <

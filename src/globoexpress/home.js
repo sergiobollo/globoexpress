@@ -12,7 +12,7 @@ function Home() {
 
         <
         Navbar sticky = "top"
-        className = "bg-white border-bottom"
+        className = " border-bottom border-white App"
         collapseOnSelect expand = "lg"
         variant = "light" >
         <
@@ -20,7 +20,7 @@ function Home() {
         <
         div className = "d-flex flex-row justify-content-center" >
         <
-        Image src = "./media/logo.jpg"
+        Image src = "../media/logo.jpg"
         className = "py-1 logo"
         fluid / >
         <
@@ -28,6 +28,7 @@ function Home() {
         div className = "d-flex flex-row justify-content-center" >
         <
         Navbar.Toggle className = "mx-auto" / >
+
         <
         Navbar.Collapse id = "responsive-navbar-nav" >
         <
@@ -49,6 +50,7 @@ function Home() {
         <
         Link to = "/globoexpress/productos"
         className = "text-danger" >
+
         <
         small > PRODUCTOS < /small> < /Link > < /
         Nav.Item >
@@ -58,6 +60,7 @@ function Home() {
         <
         Link to = "/globoexpress/contacto"
         className = "text-danger" >
+
         <
         small > CONTACTO < /small> < /Link > < /
         Nav.Item >
@@ -84,7 +87,7 @@ function Home() {
         Carousel.Item >
         <
         Image className = "d-block w-100"
-        src = "./media/Carousel1.jpg"
+        src = "../media/Carousel1.jpg"
         alt = "First slide" /
         >
         <
@@ -92,7 +95,7 @@ function Home() {
         Carousel.Item >
         <
         Image className = "d-block w-100"
-        src = "./media/Carousel2.jpg"
+        src = "../media/Carousel2.jpg"
         alt = "Third slide" /
         >
         <
@@ -100,7 +103,7 @@ function Home() {
         Carousel.Item >
         <
         Image className = "d-block w-100"
-        src = "./media/Carousel3.jpg"
+        src = "../media/Carousel3.jpg"
         alt = "Third slide" /
         >
         <
@@ -108,7 +111,7 @@ function Home() {
         Carousel.Item >
         <
         Image className = "d-block w-100"
-        src = "./media/Carousel4.jpg"
+        src = "../media/Carousel4.jpg"
         alt = "Fourth slide" /
         >
         <
@@ -116,7 +119,7 @@ function Home() {
         Carousel.Item >
         <
         Image className = "d-block w-100"
-        src = "./media/Carousel5.jpg"
+        src = "../media/Carousel5.jpg"
         alt = "Fifth slide" /
         >
         <
@@ -146,7 +149,7 @@ Container >
     <
     aside >
     <
-    Image src = "./media/home5.jpg"
+    Image src = "../media/home5.jpg"
 className = "p-3 align-center mx-auto d-block"
 fluid / >
     <
