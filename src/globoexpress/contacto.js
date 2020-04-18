@@ -104,7 +104,14 @@ function Contacto() {
         <
         /
         Card.Body > <
-        /Card>  < /
+        /Card> 
+
+        <
+        footer className = "border-top p-1 mx-auto sticky-bottom text-center text-danger bg-white" > < small > ©Globo Express 1995 - 2020. Globo Express - Silk Screen Impresión Perfecta y Flexifoil Set, son Marcas Registradas < /small > < /footer >
+
+
+        <
+        /
         div >
     );
 }
