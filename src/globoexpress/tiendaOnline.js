@@ -1,3 +1,5 @@
+/*json-server public/db.json --port 8000*/
+
 import React, { Component } from 'react';
 import Products from "./components/componentProducts"
 import Container from 'react-bootstrap/Container';

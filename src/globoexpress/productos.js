@@ -136,7 +136,7 @@ function Productos() {
         <
         embed type = "application/pdf"
 
-        src = "http://www.globoexpress.com.ar/full/index_htm_files/catalogo%20enero%202020.pdf" / >
+        src = "./media/catalogoEnero2020.pdf" / >
         <
         /ResponsiveEmbed> 
 
