@@ -19,7 +19,7 @@ function Nosotros() {
         <
         div className = "d-flex flex-row justify-content-center" >
         <
-        Image src = "../media/logo.jpg"
+        Image src = "./media/logo.jpg"
         className = "py-1 logo"
         fluid / >
         <
@@ -76,7 +76,7 @@ function Nosotros() {
         <
         header >
         <
-        Image src = "../media/logo2.jpg"
+        Image src = "./media/logo2.jpg"
         className = "p-3 align-center mx-auto d-block logo"
 
         fluid / >
@@ -87,7 +87,7 @@ function Nosotros() {
         <
         section className = "p-3 d-block overflow-hidden" >
         <
-        Image src = "../media/nosotros.jpg"
+        Image src = "./media/nosotros.jpg"
         className = "float-left w-25 pr-1"
         fluid / >
 

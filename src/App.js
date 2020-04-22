@@ -10,8 +10,7 @@ import Notfound from './globoexpress/notfound';
 //import Container from 'react-bootstrap/Container'
 //import Row from 'react-bootstrap/Row'
 //import Col from 'react-bootstrap/Col'
-
-import Catalogo from './globoexpress/catalogo';
+import TiendaOnline from "./globoexpress/tiendaOnline";
 
 
 class App extends Component {
@@ -24,8 +23,6 @@ class App extends Component {
         return ( < div ref = { this.appRef }
             className = " App" > <
             BrowserRouter basename = '/' >
-
-
             <
             div >
             <
@@ -39,13 +36,15 @@ class App extends Component {
             />  <
             Route path = '/globoexpress/productos'
             component = { Productos }
-            />  <
-            Route path = '/globoexpress/catalogo'
-            component = { Catalogo }
-            />  <
+            />    <
             Route path = '/globoexpress/contacto'
             component = { Contacto }
-            />   <
+            />  <
+            Route path = '/globoexpress/tiendaOnline'
+            component = { TiendaOnline }
+            /> 
+
+            <
             Route component = { Notfound }
             /> < /
             Switch >

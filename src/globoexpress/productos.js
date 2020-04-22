@@ -6,6 +6,7 @@ import Image from 'react-bootstrap/Image';
 import { Link } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed';
 
 function Productos() {
     return ( <
@@ -21,7 +22,7 @@ function Productos() {
         <
         div className = "d-flex flex-row justify-content-center" >
         <
-        Image src = "../media/logo.jpg"
+        Image src = "./media/logo.jpg"
         className = "py-1 logo"
         fluid / >
         <
@@ -77,18 +78,14 @@ function Productos() {
 
         <
         header >
-
+        <
+        h4 className = "text-center p-3" > Productos < /h4> <
+        p className = " text-center" > Ingresá a nuestra <
+        Link to = "/globoexpress/tiendaOnline"
+        className = "text-warning" >
 
         <
-        p className = "text-danger pt-3 text-center" > Consulta nuestro <
-        Link to = "/globoexpress/catalogo"
-        className = "text-danger" >
-
-        <
-        u > catálogo < /u> < /Link > < /p > 
-
-        <
-        /
+        u > Tienda Online < /u> < /Link > < /p >  < /
         header >
 
         <
@@ -99,28 +96,28 @@ function Productos() {
         Col xs = { 12 }
         className = " mx-auto align-center" >
         <
-        Image src = "../media/home1.jpg"
+        Image src = "./media/home1.jpg"
         className = "p-3 align-center mx-auto d-block"
         fluid / >
         <
         /Col> <
         Col xs = { 12 } >
         <
-        Image src = "../media/home2.jpg"
+        Image src = "./media/home2.jpg"
         className = "p-3 align-center mx-auto d-block"
         fluid / >
         <
         /Col> <
         Col xs = { 12 } >
         <
-        Image src = "../media/home3.jpg"
+        Image src = "./media/home3.jpg"
         className = "p-3 align-center mx-auto d-block"
         fluid / >
         <
         /Col> <
         Col xs = { 12 } >
         <
-        Image src = "../media/home4.jpg"
+        Image src = "./media/home4.jpg"
         className = "p-3 align-center mx-auto d-block"
         fluid / >
         <
@@ -129,6 +126,22 @@ function Productos() {
         <
         /
         Container >
+        <
+        div >
+        <
+        h4 className = "pt-3 text-center" > Catálogo < /h4 > 
+
+        <
+        ResponsiveEmbed aspectRatio = "1by1" >
+        <
+        embed type = "application/pdf"
+
+        src = "http://www.globoexpress.com.ar/full/index_htm_files/catalogo%20enero%202020.pdf" / >
+        <
+        /ResponsiveEmbed> 
+
+        <
+        /div>
 
         <
         footer className = "border-top p-1 mx-auto sticky-bottom text-center text-danger bg-white" > < small > ©Globo Express 1995 - 2020. Globo Express - Silk Screen Impresión Perfecta y Flexifoil Set, son Marcas Registradas < /small > < /footer >

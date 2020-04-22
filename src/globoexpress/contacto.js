@@ -20,7 +20,7 @@ function Contacto() {
         <
         div className = "d-flex flex-row justify-content-center" >
         <
-        Image src = "../media/logo.jpg"
+        Image src = "./media/logo.jpg"
         className = "py-1 logo"
         fluid / >
         <
@@ -85,7 +85,7 @@ function Contacto() {
         } >
         <
         Card.Img variant = "top"
-        src = "../media/contacto.jpg" / >
+        src = "./media/contacto.jpg" / >
         <
         Card.Body >
         <
@@ -94,7 +94,7 @@ function Contacto() {
         <
         p > Horario: Lunes a Viernes de 8 a 17 hs y Sábados de 10 a 13 hs. < /p>  <
         p > Tel: 46839577 / 46352296 / 32212412 < /p> <
-        p > < Image src = "../media/whatsappLogo.png"
+        p > < Image src = "./media/whatsappLogo.png"
         rounded / > WhatsApp: 1165597309 < /p>  <
         p > Mail: < a href = "mailto: info @globoexpress.com.ar" > info @globoexpress.com.ar < /a>< /p >
         <
